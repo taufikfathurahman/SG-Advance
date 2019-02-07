@@ -1,0 +1,26 @@
+% a = 200;
+% b = 100;
+% tambah = a + b;
+% kurang = a - b;
+% kali = a * b;
+% bagi = a / b;
+% 
+% disp([tambah, kurang, kali, bagi])
+% 
+% angka = input('Masukan angka : ');
+% 
+% if angka==0
+%     hasil = 'nol';
+% elseif angka==1
+%     hasil = 'satu';
+% else
+%     hasil = 'bukan nol atau satu';
+% end
+
+% disp(hasil)
+% 
+% for i=1:1:10
+%     disp(i);
+% end
+
+A = [10 40; 20 30]

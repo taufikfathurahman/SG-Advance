@@ -7,8 +7,6 @@ n = input('N : ');
 my_matrix = make_matrix(m, n);
 [zero, one] = count_zero_one(my_matrix);
 
-disp(my_matrix);
-
 while zero ~= 0 && one ~= 0
     disp("Input Koordinat : ");
     x = input('X : ');

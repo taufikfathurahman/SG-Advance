@@ -8,14 +8,10 @@ my_matrix = make_matrix(m, n);
 [zero, one] = count_zero_one(my_matrix);
 
 while zero ~= 0 && one ~= 0
+    while x > m | y > n
     disp("Input Koordinat : ");
     x = input('X : ');
     y = input('Y : ');
-    while x > m | y > n
-        disp("[Tidak Valid] Input Ulang Koordinat : ");
-        x = input('X : ');
-        y = input('Y : ');
-    end    
     if my_matrix(x,y) == 0
         my_matrix(x,y) = 99;
         disp("Anda menebak wereworlf");
